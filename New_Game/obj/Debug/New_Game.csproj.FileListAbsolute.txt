@@ -1,0 +1,11 @@
+C:\Users\OOP14\source\repos\New_Game\New_Game\bin\Debug\New_Game.exe.config
+C:\Users\OOP14\source\repos\New_Game\New_Game\bin\Debug\New_Game.exe
+C:\Users\OOP14\source\repos\New_Game\New_Game\bin\Debug\New_Game.pdb
+C:\Users\OOP14\source\repos\New_Game\New_Game\obj\Debug\New_Game.csprojAssemblyReference.cache
+C:\Users\OOP14\source\repos\New_Game\New_Game\obj\Debug\New_Game.Form1.resources
+C:\Users\OOP14\source\repos\New_Game\New_Game\obj\Debug\New_Game.Game.resources
+C:\Users\OOP14\source\repos\New_Game\New_Game\obj\Debug\New_Game.Properties.Resources.resources
+C:\Users\OOP14\source\repos\New_Game\New_Game\obj\Debug\New_Game.csproj.GenerateResource.cache
+C:\Users\OOP14\source\repos\New_Game\New_Game\obj\Debug\New_Game.csproj.CoreCompileInputs.cache
+C:\Users\OOP14\source\repos\New_Game\New_Game\obj\Debug\New_Game.exe
+C:\Users\OOP14\source\repos\New_Game\New_Game\obj\Debug\New_Game.pdb
