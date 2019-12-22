@@ -10,14 +10,15 @@ using System.Windows.Forms;
 
 namespace New_Game
 {
+    public enum Players
+    {
+        Not,
+        Cross,
+        Zero
+    }
     public partial class Game : Form
     {
-        enum Players
-        {
-            Not,
-            Cross,
-            Zero
-        }
+       
         Players cur_player = Players.Zero;
         Players[] area = new Players[9];
         Players win = Players.Not;
@@ -52,7 +53,7 @@ namespace New_Game
                 win = area[0];
             } else if (area[2].Equals(area[4]) && area[2].Equals(area[6]) && !area[2].Equals(Players.Not))
             {
-                win = area[2];
+                
             }
         }
 
@@ -78,9 +79,17 @@ namespace New_Game
                 button.BackgroundImage = bmp;
                 button.BackgroundImageLayout = ImageLayout.Stretch;
                 cur_player = Players.Zero;
-                masiv_pos(pos, Players.Cross);
+                masiv_pos(pos, Players.Zero);
             }
             button.Enabled = false;
+            is_end();
+            if (!win.Equals(Players.Not))
+            {
+                using (Win f = new Win(win))
+                {
+                    f.ShowDialog();
+                }
+            }
         }
 
 
@@ -137,7 +146,15 @@ namespace New_Game
 
         private void Button10_Click(object sender, EventArgs e)
         {
-
+            Button[] buttons = new Button[] { button7, button8, button9, button4, button3, button5, button6, button2, button3, button1 };
+           for (int i = 0; i < buttons.Length; i++)
+            {
+                buttons[i].Enabled = true;
+                buttons[i].BackgroundImage = null;
+            }
+             cur_player = Players.Zero;
+            area = new Players[9];
+            win = Players.Not;
         }
 
         private void Button11_Click(object sender, EventArgs e)

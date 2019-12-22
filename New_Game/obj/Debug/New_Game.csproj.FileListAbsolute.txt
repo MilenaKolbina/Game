@@ -9,3 +9,4 @@ C:\Users\OOP14\source\repos\New_Game\New_Game\obj\Debug\New_Game.csproj.Generate
 C:\Users\OOP14\source\repos\New_Game\New_Game\obj\Debug\New_Game.csproj.CoreCompileInputs.cache
 C:\Users\OOP14\source\repos\New_Game\New_Game\obj\Debug\New_Game.exe
 C:\Users\OOP14\source\repos\New_Game\New_Game\obj\Debug\New_Game.pdb
+C:\Users\OOP14\source\repos\New_Game\New_Game\obj\Debug\New_Game.Win.resources
